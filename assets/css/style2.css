@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+form.example .inputcontrol {
+  padding: 11px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+}
+form.example .inputdate {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 25%;
+  background: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+form.example .inputbtn {
+  float: left;
+  width: 20%;
+  padding: 11px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+form.example .inputbtn:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#country-list{float:left;list-style:none;margin-top:1px;padding:0;width:80%;}
+#country-list li{padding: 10px; background: #f0f0f0; border-bottom: #bbb9b9 1px solid; text-align:left}
+#country-list li img{opacity:0.40;}
+#country-list li:hover{background:#ece3d2;cursor: pointer;}
+.searchInput{padding:8px; margin-bottom:10px; color:#0074FF; border:solid 1px #F3B8CC; font-family: 'Poppins', sans-serif; font-size:14px;  border-radius:65px !important}
+.dateInfo{width:60%; margin-bottom:10px}
+.btnDiv{width:60%;}
+.top15 {margin-top:15px;}
+.srcRes{width:60%; background:#E9E9E9; position:absolute; z-index:999; opacity:1; margin-top:-5px; border-radius:8px; list-style-type:none; padding:20px; text-align:left}
+.srcRes li{padding:6px; color:#006CFF; font-weight:500; cursor:pointer; border-bottom:solid 1px #FFFFFF; text-align:left}
+.srcRes li .fa{color:#FF7600; padding-right:15px; font-size:18px; text-align:left}
+
+
+.main-menu ul li a.actives:after{
+     visibility:visible;
+     transform: scaleX(1);
+     transition: all .25s ease-out;
+}
+.txt-green{color:#00800E;}
+.featuresUl li{ color:#FF6E00; list-style-type:none; display:inline; width:21%; margin:6px}
+.text-warnings{color:#FF6E00;}
+.ratingStar li i{color:rgba(255,134,0,1.00);}
+.racDiv{width:100%; background:#FFFFFF; border:solid 1px #F0C2D6; cursor:pointer; padding:6px; border-radius:65px; color:#008CFF}
+.racDiv span{width:33%; float:left;}
+
+.racDiv2{width:100%; background:#FFFFFF; border:solid 1px #F0C2D6; cursor:pointer; padding:6px; border-radius:5px; color:#008CFF}
+.racDiv2 span{width:100%; padding:8px}
+
+
+.racBox{width:90%; background:#EDEDED; padding:8px; position:relative; z-index:999; display:none}
+.rin{width:25%; float:left}
+.rin input{width:55px;}
+.tour_head1 h3{color:#0064FF}
+.txt-blue{color:#0064FF}
+p.txt-blue{color:#0064FF}
+.txt-orange{color:#FF6E00;}
+h4.txt-orange{color:#FF6E00;}
+.txt-green{color:#009319}
+.tabbs{width:100%;}
+.tabbs tr{background:#F17000; border-radius:6px;}
+.tabbs th{background:transparent; color:#FFFFFF; text-align:center; padding:8px; border-left:solid 1px #F1E2CE;
+cursor:pointer; font-size:16px}
+.tabBox{width:100%; background:#F4F4F4; padding:6px; color:#0054FF;}
+.tabBox p{font-size:13px; color:#0054FF;}
+.tabBox h2, h3, h4, span, b, li{color:#0054FF;}
+#dvDs{display:none;}
+.priceBox{width:100%; border:double 1px #A9A9A9; padding:12px;}
+.priceBox del, small{color:#7E7E7E;}
+.priceBox h5{font-size:18px; color:#FF7E00;}
+.priceBox .tbl1{width:100%;}
+.priceBox .tbl1 td{width:50%; padding:6px;}
+.flsDt{padding:10px; width:100%; border:solid 1px #B8B8B8; text-align:center; cursor:pointer}
+.flsDt input{border:none; text-align:center; width:100%}
+@media screen and (max-width: 991px){
+	.btnDiv{width:100%;}
+	.dateInfo{width:100%;}
+	form.example .inputcontrol {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:10px;
+}
+form.example .inputdate {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:10px;
+}
+
+
+form.example .inputbtn {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:10px;
+}
+
+.tourz-search-1 h1 {
+	 font-family:"Reality Hyper";
+     color: #fff;
+     font-size: 26px;
+}
+.tourz-search-1 h2 {
+     color: #fff;
+     font-size: 20px;
+}
+ .tourz-search-1 p {
+     font-size: 12px;
+     color: #fff;
+     padding-bottom: 30px;
+     margin-bottom: 0px;
+}
+	
+}
+

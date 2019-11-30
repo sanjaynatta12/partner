@@ -1,0 +1,20 @@
+1. visa name does not list as video in promotion page.
+2. image and text of services do not mark and darkness when moving the mouse over it in about us page.
+3. yellow stuff line does not show in Spanish and French language of under all text.
+4. yellow shadow and + icon does not show over the picture box in home page.
+5. picture box does not listing and size as like video in home page.
+6. frence , spanish does not proper tranlate to english lnguage.
+7. do not add link in 3 coloume as From Qatar , From Oman , From Algeria in Book An Appointment.
+8. does not work so please add link facebook,twitter,youtube,istragram icon in footer page.
+
+
+
+wmsn.web@gmail.com
+0192023a7bbd73250516f069df18b500
+
+1. Morcco
+2. Algeria 
+3. Tunisia 
+4. United Arab Emirates
+5. Egypt
+ 
